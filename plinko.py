@@ -11,7 +11,7 @@ blue = (0,0,255)
 black= (0,0,0)
 
 
-screen = pygame.display.set_mode((600,800)) #game window dimensions
+screen = pygame.display.set_mode((1800,1000)) #game window dimensions
 screen_rect=screen.get_rect()
 pygame.display.set_caption('Plinko')#game name
 clock=pygame.time.Clock() #chooses the FPS
